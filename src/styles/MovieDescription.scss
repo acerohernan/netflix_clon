@@ -1,0 +1,44 @@
+main {
+  position: relative;
+}
+
+.main-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-movie__info {
+  display: flex;
+  color: white;
+}
+
+.movie-info__left {
+  padding: 0 50px;
+}
+
+.main-movie__info span {
+  display: inline-block;
+}
+
+.movie-info__left span {
+  margin: 20px 20px 0 0;
+}
+
+.movie-info__left p {
+  margin-top: 30px;
+  font-size: 0.9rem;
+}
+
+.movie-info__right {
+  margin-top: 30px;
+}
+
+.movie-info__right span {
+  margin: 10px 0;
+  padding: 0 20px;
+  font-size: 0.8 rem;
+}
+
+.valid-movie {
+  color: rgb(86, 250, 86);
+}
